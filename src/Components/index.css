@@ -1,0 +1,36 @@
+
+body{
+
+    font-family: "Montserrat Alternates",sans-serif;
+background-color: #000000 !important ;
+color: #FFFF;
+
+
+
+
+}
+
+a , a:hover {
+    color: #FFFF;
+    text-decoration: none;
+}
+li
+{
+    cursor: pointer;
+}
+
+.brdr {
+
+    background-color: #313131;
+    height: 2px;
+}
+.imgs
+{
+    border-radius: 20%;
+    transition: transform .2s;
+}
+.imgs:hover{
+    
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+}
